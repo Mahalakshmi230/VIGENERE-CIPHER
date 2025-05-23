@@ -31,8 +31,7 @@ STEP-8: Repeat the above steps to generate the entire cipher text.
 
 ## PROGRAM
 ```
-
-```#include <stdio.h> 
+#include <stdio.h> 
 #include <string.h> 
 #include <ctype.h> 
 #define MAX_LENGTH 100 
@@ -81,6 +80,8 @@ result[inputLength] = '\0';
 printf("Decrypted text: %s\n", result); 
 return 0; 
 }
+```
+
 ## OUTPUT
 ![Screenshot 2025-03-17 155747](https://github.com/user-attachments/assets/ee7e6587-a588-4f26-a509-86ab67421dfb)
 
